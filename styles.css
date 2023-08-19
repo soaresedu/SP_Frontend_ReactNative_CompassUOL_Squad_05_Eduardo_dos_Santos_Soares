@@ -60,20 +60,20 @@ header .container{
     height: 100%;
 }
 
-section.hero{
+main.main-notice{
     position: relative;
 }
 
-.hero {
-
-    padding: 150px;
+.main-notice {
+    margin: auto;
+    padding-top: 150px;
     display:flex;
     flex-direction: column;
     justify-content: center;
     z-index: 0;
 }
 
-.hero .container{
+.main-notice .container {
     width: 65%;
     margin: auto;
     display: flex;
@@ -82,13 +82,22 @@ section.hero{
     align-items: center;
 }
 
-.hero .container img{
-    width: 100%;
+.main-notice a{
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main-notice a img{
+    margin: auto;
+    width: 65%;
     height: auto;
 }
 
-.hero .container h1{
-    top: 10;
+.main-notice h1{
+    margin: auto;
+    width: 65%;
+    padding-top: 40px;
     text-align: center;
     font-family: New York Extra Large;
     font-size: 38px;
@@ -96,9 +105,10 @@ section.hero{
     letter-spacing: 1px;
 }
 
-.hero .container h2{
-    margin-top: 0;
-    max-width: 481px;
+.main-notice p{
+    margin: auto;
+    padding-top: 30px;
+    max-width: 65%;
     text-align: center;
     font-family: SF Mono;
     font-size: 20px;
@@ -106,8 +116,74 @@ section.hero{
     letter-spacing: 1px;
 }
 
-.hero .container hr{
+div hr{
+    margin-top: 50px;
     background-color: #000;
-    width: 85%;
+    width: 35%;
     height: 1px;
+}
+
+section.articles h2{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+section.articles .container{
+    max-width: 590px;
+    margin: auto;
+}
+
+section.articles div{
+    max-width: 400px;
+    height: auto;
+}
+
+#posts{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+#posts a{
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+
+#posts a img{
+    max-width: 100%;
+}
+
+#posts a h3{
+    width: 100%; 
+    font-family: SF Pro Display;
+    font-weight: 400;
+}
+
+footer{
+    color: #fff;
+    background-color: #000;
+    height: 100px;
+}
+
+footer h4{
+    font-family: SF Pro Text;
+    font-size: 19.3px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+footer p{
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
 }
