@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    font-family: 'New York Extra Large', sans-serif;
+    font-family: 'New York Large', sans-serif;
+    font-family: 'New York Medium', sans-serif;
+    font-family: 'New York Small', sans-serif;                                
+}
+.container{
+    max-width: 1180px;
+    margin: auto;
+}
+
+header {
+    padding-top: 10px;
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    z-index: 1;
+}
+
+header .logo{
+    display: inline-block;
+}
+
+header .logo img{
+    width: 300px;
+    height: auto;
+}
+
+header nav{
+    display: inline-block;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    margin-right: 24px;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    border-bottom: solid 1px black;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#notice-body {
+    margin: auto;
+    padding-top: 150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: SF Mono;
+    z-index: 0;
+}
+
+#notice-body :not(img){
+    width: 63%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#notice-body  h1{
+    margin: auto;
+    width: 65%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: New York Extra Large;
+    font-size: 38px;
+    line-height: 100%; 
+    letter-spacing: 1px;
+}
+
+#notice-body p{
+    margin: auto;
+    padding-top: 30px;
+    max-width: 100%;
+    font-family: SF Mono;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+section.second-part{
+    max-width: 63%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: SF Mono;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+section.second-part h2{
+    margin-left: 0;
+}
+
+section.second-part #image{
+    margin: 20px auto;
+    width: 100%;
+    height: auto; 
+}
+
+section.second-part p{
+    margin: auto;
+    padding: 0px;
+    max-width: 100%;
+    font-family: SF Mono;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+section.second-part p:last-of-type{
+    padding-top: 40px;
+    line-height: 30px;
+}
+
+section.comment {
+    max-width: 63%;
+    margin: auto;
+    padding: 20px;
+}
+
+section.comment hr{
+    width: 80%;
+    border: 1px dashed gray;
+}
+
+section.comment .container{
+    display: flex;
+    max-width: 63%;
+}
+
+section.comment img{
+    margin: auto 20px;
+    border: none;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+
+section.newsletter{
+    background-color: #fff;
+    max-width: 45%;
+    height: 170px;
+    text-align: center;
+    padding: 72px 0;
+    margin: 60px auto;
+    border: solid 1px #3E3E3E;
+    border-top: solid 6px #000;
+}
+
+section.newsletter h3{
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    line-height: 42px;
+    font-family: New York Extra Large;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+section.newsletter p{
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 32px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+section.newsletter form{
+    display: flex;
+    justify-content: center;
+}
+
+section.newsletter input{
+    height: 50px;
+    width: 326px;
+    max-width: 80%;
+    box-sizing: border-box;
+    border: 1px solid #3E3E3E;
+    border-right: none;
+    padding-left: 22px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    font-size: 14px;
+    font-family: Heebo;
+}
+
+section.newsletter button{
+    height: 50px;
+    width: 145px;
+    max-width: 20%;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section.newsletter button:hover{
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+}
+
+footer{
+    color: #fff;
+    background-color: #000;
+    height: 170px;
+}
+
+footer h4{
+    font-family: SF Pro Text;
+    font-size: 19.3px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div img{
+    width: 15%;
+}
+
+footer div p{
+    width: 40%;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
+}

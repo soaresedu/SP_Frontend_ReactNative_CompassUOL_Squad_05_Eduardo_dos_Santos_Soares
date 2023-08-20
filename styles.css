@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    height: 1500px;
     font-family: 'New York Extra Large', sans-serif;
     font-family: 'New York Large', sans-serif;
     font-family: 'New York Medium', sans-serif;
@@ -167,7 +166,7 @@ section.articles div{
 footer{
     color: #fff;
     background-color: #000;
-    height: 100px;
+    height: 170px;
 }
 
 footer h4{
@@ -177,6 +176,22 @@ footer h4{
     line-height: 28px;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div img{
+    width: 15%;
+}
+
+footer div p{
+    width: 40%;
+    text-align: center;
 }
 
 footer p{
