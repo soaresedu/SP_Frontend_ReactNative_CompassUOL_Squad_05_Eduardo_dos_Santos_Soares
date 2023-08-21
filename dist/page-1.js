@@ -27,5 +27,6 @@ function showComment() {
     outputComment = `<p>'${Username}'</p>
                   <p>'${comment}'</p>`;
     document.getElementById('comments-section').innerHTML = outputComment;
+    return outputComment;
 }
 getContent();

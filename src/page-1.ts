@@ -40,6 +40,8 @@ function showComment(){
                   <p>'${comment}'</p>`
 
     document.getElementById('comments-section')!.innerHTML = outputComment;
+
+    return outputComment;
 }
 
 getContent();

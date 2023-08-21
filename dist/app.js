@@ -29,7 +29,7 @@ function getNews() {
     });
 }
 function showMainNotice(output) {
-    output = `<a href = '/page-1.html'><img src = '${image}' alt = 'main-notice-image'/>
+    output = `<a href = '/html/page-1.html'><img src = '${image}' alt = 'main-notice-image'/>
             <h1>${title}</h1>
             <p>${description}</p></a>`;
     document.querySelector("main").innerHTML = output;
@@ -44,7 +44,7 @@ function showArticles1() {
     });
 }
 function showArticle1(output) {
-    output = `<a href ='/page-2.html'><img src = '${imageA}' alt = 'article-image'/>
+    output = `<a href ='/html/page-2.html'><img src = '${imageA}' alt = 'article-image'/>
              <h3>${titleA}</h3></a>`;
     document.getElementById("post-1").innerHTML = output;
 }
@@ -58,7 +58,7 @@ function showArticles2() {
     });
 }
 function showArticle2(output) {
-    output = `<a href ='/page-3.html'><img src = '${imageA}' alt = 'article-image'/>
+    output = `<a href ='/html/page-3.html'><img src = '${imageA}' alt = 'article-image'/>
   <h3>${titleA}</h3></a>`;
     document.getElementById("post-2").innerHTML = output;
 }
@@ -72,7 +72,7 @@ function showArticles3() {
     });
 }
 function showArticle3(output) {
-    output = `<a href = '/page-4.html'><img src = '${imageA}' alt = 'article-image'/>
+    output = `<a href = '/html/page-4.html'><img src = '${imageA}' alt = 'article-image'/>
   <h3>${titleA}</h3></a>`;
     document.getElementById("post-3").innerHTML = output;
 }
@@ -86,7 +86,7 @@ function showArticles4() {
     });
 }
 function showArticle4(output) {
-    output = `<a href ='/page-5.html'><img src = '${imageA}' alt = 'article-image'/>
+    output = `<a href ='/html/page-5.html'><img src = '${imageA}' alt = 'article-image'/>
   <h3>${titleA}</h3></a>`;
     document.getElementById("post-4").innerHTML = output;
 }
@@ -100,7 +100,7 @@ function showArticles5() {
     });
 }
 function showArticle5(output) {
-    output = `<a href ='/page-6.html'><img src = '${imageA}' alt = 'article-image'/>
+    output = `<a href ='/html/page-6.html'><img src = '${imageA}' alt = 'article-image'/>
   <h3>${titleA}</h3></a>`;
     document.getElementById("post-5").innerHTML = output;
 }
@@ -114,7 +114,7 @@ function showArticles6() {
     });
 }
 function showArticle6(output) {
-    output = `<a href ='/page-7.html'><img src = '${imageA}' alt = 'article-image'/>
+    output = `<a href ='/html/page-7.html'><img src = '${imageA}' alt = 'article-image'/>
   <h3>${titleA}</h3></a>`;
     document.getElementById("post-6").innerHTML = output;
 }
